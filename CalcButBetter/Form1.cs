@@ -306,6 +306,9 @@ namespace CalcButBetter
                 case Keys.Enter:
                     buttonEQL_Click(sender, e);
                     break;
+                case Keys.Back:
+                    buttonCLR_Click(sender, e);
+                    break;
             }
         }
     }
